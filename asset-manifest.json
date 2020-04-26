@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/privateandflorence/static/css/main.eab24d3c.chunk.css",
+    "main.js": "/privateandflorence/static/js/main.6f3b4e10.chunk.js",
+    "main.js.map": "/privateandflorence/static/js/main.6f3b4e10.chunk.js.map",
+    "runtime-main.js": "/privateandflorence/static/js/runtime-main.329b254a.js",
+    "runtime-main.js.map": "/privateandflorence/static/js/runtime-main.329b254a.js.map",
+    "static/js/2.cde3ff6c.chunk.js": "/privateandflorence/static/js/2.cde3ff6c.chunk.js",
+    "static/js/2.cde3ff6c.chunk.js.map": "/privateandflorence/static/js/2.cde3ff6c.chunk.js.map",
+    "index.html": "/privateandflorence/index.html",
+    "precache-manifest.cf73b990e04058fb835ffa4c39c17f6e.js": "/privateandflorence/precache-manifest.cf73b990e04058fb835ffa4c39c17f6e.js",
+    "service-worker.js": "/privateandflorence/service-worker.js",
+    "static/css/main.eab24d3c.chunk.css.map": "/privateandflorence/static/css/main.eab24d3c.chunk.css.map",
+    "static/js/2.cde3ff6c.chunk.js.LICENSE.txt": "/privateandflorence/static/js/2.cde3ff6c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.329b254a.js",
+    "static/js/2.cde3ff6c.chunk.js",
+    "static/css/main.eab24d3c.chunk.css",
+    "static/js/main.6f3b4e10.chunk.js"
+  ]
+}
