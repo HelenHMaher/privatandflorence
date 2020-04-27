@@ -3,12 +3,12 @@ import "./App.css";
 
 function App() {
   return (
-    <div class="container">
-      <nav id="navbar" class="nav">
-        <ul class="nav-list">
+    <div className="container">
+      <nav id="navbar" className="nav">
+        <ul className="nav-list">
           <li>
             <a href="#welcome">
-              <img src="whiterose.svg" alt="Home" id="roseicon" />
+              <img src="%PUBLIC_URL%/whiterose.svg" alt="Home" id="roseicon" />
             </a>
           </li>
           <li>
@@ -26,44 +26,44 @@ function App() {
         </ul>
       </nav>
 
-      <section id="welcome" class="welcome">
-        <div class="grid">
-          <div class="title">
+      <section id="welcome" className="welcome">
+        <div className="grid">
+          <div className="title">
             <h1>Privat and Florence</h1>
             <p>August 21, 2021</p>
           </div>
-          <div class="main-image">
+          <div className="main-image">
             <figure id="main-image">
               <img
                 id="image"
-                src="./photos/engagement.jpg"
+                src="%PUBLIC_URL%/photos/engagement.jpg"
                 alt="Florence and Private on their engagement"
               />
             </figure>
           </div>
         </div>
-        <div class="email">
+        <div className="email">
           <form id="form" action="__">
             <input
               name="email"
               id="email"
               type="email"
-              class="fill-in-blank"
+              className="fill-in-blank"
               placeholder="enter your email receive updates"
               required
             />
-            <input id="submit" type="submit" value="submit" class="btn" />
+            <input id="submit" type="submit" value="submit" className="btn" />
           </form>
         </div>
       </section>
 
-      <section id="wedding" class="topics">
-        <h2 class="wedding-header">Our Wedding</h2>
+      <section id="wedding" className="topics">
+        <h2 className="wedding-header">Our Wedding</h2>
         <p>dates, times, locations, dress code, registry</p>
       </section>
 
-      <section id="detials" class="topics">
-        <h2 class="details-header">Event Details</h2>
+      <section id="detials" className="topics">
+        <h2 className="details-header">Event Details</h2>
         <ul id="detailsnav">
           <li>
             <a href="#hillsboro">Travel and Accomodations</a>
@@ -80,26 +80,26 @@ function App() {
         <h3 id="reception">The Reception</h3>
       </section>
 
-      <section id="story" class="topics">
-        <h2 class="story-header">Our Story</h2>
+      <section id="story" className="topics">
+        <h2 className="story-header">Our Story</h2>
         <p> Our beautiful love story.</p>
       </section>
 
-      <section id="rsvp" class="rsvp">
-        <div class="rsvp-header">
+      <section id="rsvp" className="rsvp">
+        <div className="rsvp-header">
           <h2>RSVP</h2>
         </div>
-        <div class="rsvp-content">
+        <div className="rsvp-content">
           <p>Sign up to receive updates!</p>
         </div>
-        <div class="rsvp-links">
+        <div className="rsvp-links">
           <a
             id="profile-link"
             href="mailto:helenhmaher@gmail.com"
             target="_blank"
-            class="rsvp-btn"
+            className="rsvp-btn"
           >
-            <i class="fas fa-at"></i>Email
+            <i className="fas fa-at"></i>Email
           </a>
         </div>
       </section>
