@@ -8,7 +8,7 @@ function App() {
         <ul className="nav-list">
           <li>
             <a href="#welcome">
-              <img src="%PUBLIC_URL%/whiterose.svg" alt="Home" id="roseicon" />
+              <img src={"../public/whiterose.svg"} alt="Home" id="roseicon" />
             </a>
           </li>
           <li>
@@ -36,7 +36,7 @@ function App() {
             <figure id="main-image">
               <img
                 id="image"
-                src="%PUBLIC_URL%/photos/engagement.jpg"
+                src={"photos/engagement.jpg"}
                 alt="Florence and Private on their engagement"
               />
             </figure>
