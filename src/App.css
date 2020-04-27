@@ -1,3 +1,19 @@
+@import "https://use.fontawesome.com/releases/v5.8.2/css/all.css";
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Marck+Script&display=swap");
+
+:root {
+  --main-black: rgb(0, 0, 0);
+  --main-white: rgb(255, 255, 255);
+  --main-red: rgb(191, 10, 48);
+  --main-blue: rgb(0, 40, 104);
+  --main-grey: rgb(241, 241, 241);
+}
+
 .App {
   text-align: center;
+  font-size: 6px;
+  margin: 0;
+  padding: 0;
+  font-family: "raleway", sans-serif;
 }
