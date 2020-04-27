@@ -34,7 +34,11 @@ function App() {
           </div>
           <div class="main-image">
             <figure id="main-image">
-              <img id="image" src="LVceremony.jpg" alt="photo of couple" />
+              <img
+                id="image"
+                src="./photos/engagement.jpg"
+                alt="Florence and Private on their engagement"
+              />
             </figure>
           </div>
         </div>
