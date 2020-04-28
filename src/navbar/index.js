@@ -14,13 +14,13 @@ export const NavBar = () => {
           </a>
         </li>
         <li>
-          <a href="./#wedding">Our Wedding</a>
+          <a href="./#our-wedding">Our Wedding</a>
         </li>
         <li>
-          <a href="./#details">Event Details</a>
+          <a href="./#event-details">Event Details</a>
         </li>
         <li>
-          <a href="./#story">Our Story</a>
+          <a href="./#our-story">Our Story</a>
         </li>
         <li>
           <a href="./#rsvp">RSVP</a>
