@@ -29,7 +29,7 @@
   top: 0;
   left: 0;
   z-index: 10;
-  box-shadow: 0 2px 2px var(--main-black);
+  box-shadow: 0 2px 2px;
   max-height: 15vh;
 }
 
