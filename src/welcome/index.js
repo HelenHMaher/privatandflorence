@@ -8,6 +8,7 @@ export const Welcome = () => {
           <h1>Privat and Florence</h1>
           <p>August 21, 2021</p>
         </div>
+
         <div className="main-image">
           <figure id="main-image">
             <img
