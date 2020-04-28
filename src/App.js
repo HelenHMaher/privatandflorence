@@ -1,69 +1,21 @@
 import React from "react";
 import "./App.css";
-import OurStory from "./text-files/ourStory.js";
+import OurStory from "./our-story";
+import NavBar from "./navbar";
+import Welcome from "./welcome";
 
 function App() {
   return (
     <div className="container">
-      <nav id="navbar" className="nav">
-        <ul className="nav-list">
-          <li>
-            <a href="#welcome">
-              <img src={"../public/whiterose.svg"} alt="Home" id="roseicon" />
-            </a>
-          </li>
-          <li>
-            <a href="#wedding">Our Wedding</a>
-          </li>
-          <li>
-            <a href="#details">Details</a>
-          </li>
-          <li>
-            <a href="#story">Our Story</a>
-          </li>
-          <li>
-            <a href="#rsvp">RSVP</a>
-          </li>
-        </ul>
-      </nav>
+      <NavBar />
+      <Welcome />
 
-      <section id="welcome" className="welcome">
-        <div className="grid">
-          <div className="title">
-            <h1>Privat and Florence</h1>
-            <p>August 21, 2021</p>
-          </div>
-          <div className="main-image">
-            <figure id="main-image">
-              <img
-                id="image"
-                src={require("./photos/engagementPhoto.jpg")}
-                alt="Florence and Private on their engagement"
-              />
-            </figure>
-          </div>
-        </div>
-        <div className="email">
-          <form id="form" action="__">
-            <input
-              name="email"
-              id="email"
-              type="email"
-              className="fill-in-blank"
-              placeholder="enter your email receive updates"
-              required
-            />
-            <input id="submit" type="submit" value="submit" className="btn" />
-          </form>
-        </div>
-      </section>
-
-      <section id="wedding" className="topics">
+      <section id="our-wedding" className="topics">
         <h2 className="wedding-header">Our Wedding</h2>
         <p>dates, times, locations, dress code, registry</p>
       </section>
 
-      <section id="detials" className="topics">
+      <section id="event-detials" className="topics">
         <h2 className="details-header">Event Details</h2>
         <ul id="detailsnav">
           <li>
@@ -81,10 +33,7 @@ function App() {
         <h3 id="reception">The Reception</h3>
       </section>
 
-      <section id="story" className="topics">
-        <h2 className="story-header">Our Story</h2>
-        <OurStory />
-      </section>
+      <OurStory />
 
       <section id="rsvp" className="rsvp">
         <div className="rsvp-header">
@@ -106,7 +55,7 @@ function App() {
       </section>
 
       <footer>
-        <p>&copy; 2020, Helen Maher</p>
+        <p>2020 Helen Maher</p>
       </footer>
     </div>
   );

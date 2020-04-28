@@ -1,8 +1,8 @@
 import React from "react";
 
-export const OurStory = () => {
+export const StoryText = () => {
   return (
-    <div className="our-story">
+    <div className="story-text">
       <p>
         We met in May 2017 in Washington, DC. At the time, Privat was in
         graduate school for economics at Howard University, and Florence was
@@ -39,4 +39,4 @@ export const OurStory = () => {
   );
 };
 
-export default OurStory;
+export default StoryText;
