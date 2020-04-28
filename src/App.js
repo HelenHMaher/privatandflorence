@@ -37,7 +37,7 @@ function App() {
             <figure id="main-image">
               <img
                 id="image"
-                src={"photos/engagement.jpg"}
+                src={require("./photos/engagementPhoto.jpg")}
                 alt="Florence and Private on their engagement"
               />
             </figure>
