@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import OurStory from "./text-files/ourStory.js";
 
 function App() {
   return (
@@ -82,7 +83,7 @@ function App() {
 
       <section id="story" className="topics">
         <h2 className="story-header">Our Story</h2>
-        <p> Our beautiful love story.</p>
+        <OurStory />
       </section>
 
       <section id="rsvp" className="rsvp">
