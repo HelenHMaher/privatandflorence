@@ -69,31 +69,38 @@ html {
 
 .welcome {
   position: relative;
+  display: inline-block;
 }
 
 .main-image {
   width: 100vw;
   display: flex;
   justify-content: center;
+  margin-top: 4rem;
 }
 
 #engagement-photo {
   box-shadow: 0 0 7px;
 }
 
-.email {
+.title {
+  font-family: "Dancing Script", cursive;
+  color: white;
+  top: 75vh;
   position: absolute;
+  z-index: 9;
+}
+
+.email {
   width: 100vw;
+  position: absolute;
   z-index: 9;
   top: 80vh;
-  margin: auto;
-  background: green;
 }
 
 #email {
   width: 250px;
   height: 2rem;
-  text-justify: center;
   font-family: Cambria, Cochin, Georgia, "Times New Roman", Times, serif;
   font-size: 1rem;
   border: none;
@@ -112,6 +119,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 #roseimage {

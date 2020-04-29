@@ -4,11 +4,6 @@ export const Welcome = () => {
   return (
     <section id="welcome" className="welcome">
       <div className="grid">
-        <div className="title">
-          <h1>Privat and Florence</h1>
-          <p>August 21, 2021</p>
-        </div>
-
         <div className="main-image">
           <figure id="main-image">
             <img
@@ -18,17 +13,24 @@ export const Welcome = () => {
             />
           </figure>
         </div>
+
+        <div className="title">
+          <h1>Privat and Florence</h1>
+          <p>August 21, 2021</p>
+        </div>
       </div>
       <div className="email">
         <form id="form" action="__">
-          <input
-            name="email"
-            id="email"
-            type="email"
-            className="fill-in-blank"
-            placeholder="enter your email to receive updates"
-            required
-          />
+          <div className="email-feild">
+            <input
+              name="email"
+              id="email"
+              type="email"
+              className="fill-in-blank"
+              placeholder="enter your email to receive updates"
+              required
+            />
+          </div>
           <div className="submit-button">
             <input
               id="send-email"
