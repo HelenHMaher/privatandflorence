@@ -12,7 +12,7 @@ export const Welcome = () => {
         <div className="main-image">
           <figure id="main-image">
             <img
-              id="image"
+              id="engagement-photo"
               src={require("../photos/engagementPhoto.jpg")}
               alt="Florence and Private on their engagement"
             />
