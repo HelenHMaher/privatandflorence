@@ -26,10 +26,24 @@ export const Welcome = () => {
             id="email"
             type="email"
             className="fill-in-blank"
-            placeholder="enter your email receive updates"
+            placeholder="enter your email to receive updates"
             required
           />
-          <input id="submit" type="submit" value="submit" className="btn" />
+          <div className="submit-button">
+            <input
+              id="send-email"
+              type="submit"
+              value=""
+              className="btn"
+              title="submit"
+            />
+            <img
+              id="roseimage"
+              onclick="submitForm()"
+              src={require("../photos/roseicon.svg")}
+              alt="rose icon"
+            />
+          </div>
         </form>
       </div>
     </section>

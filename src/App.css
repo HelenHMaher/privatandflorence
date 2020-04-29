@@ -67,11 +67,61 @@ html {
 
 /***************Welcome*************/
 
+.welcome {
+  position: relative;
+}
+
 .main-image {
+  width: 100vw;
   display: flex;
   justify-content: center;
 }
 
 #engagement-photo {
   box-shadow: 0 0 7px;
+}
+
+.email {
+  position: absolute;
+  width: 100vw;
+  z-index: 9;
+  top: 80vh;
+  margin: auto;
+  background: green;
+}
+
+#email {
+  width: 250px;
+  height: 2rem;
+  text-justify: center;
+  font-family: Cambria, Cochin, Georgia, "Times New Roman", Times, serif;
+  font-size: 1rem;
+  border: none;
+  box-shadow: 0 0 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.submit-button {
+  height: 3rem;
+  width: 3rem;
+  border: none;
+  box-shadow: 0 0 5px;
+  border-radius: 10px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#roseimage {
+  height: 2rem;
+  position: absolute;
+}
+
+#send-email {
+  z-index: 8;
+  opacity: 0;
+  width: 3rem;
+  height: 3rem;
 }
