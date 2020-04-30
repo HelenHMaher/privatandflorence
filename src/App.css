@@ -70,16 +70,14 @@ html {
 .welcome {
   position: relative;
   display: inline-block;
-  background-image: url(./photos/engagement.jpg) center;
-  background-size: cover;
+  background-image: url(./photos/engagementPhoto.jpg);
   height: 100vh;
+  width: 100vw;
 }
 
 .title {
   font-family: "Dancing Script", cursive;
   color: white;
-  top: 75vh;
-  position: absolute;
   z-index: 9;
 }
 
