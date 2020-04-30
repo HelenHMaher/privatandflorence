@@ -70,16 +70,11 @@ html {
 .welcome {
   position: relative;
   display: inline-block;
+  background-image: url(./photos/engagement.jpg) center;
+  background-size: cover;
 }
 
-.main-image {
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  margin-top: 4rem;
-}
-
-#engagement-photo {
+.main-image img {
   box-shadow: 0 0 7px;
 }
 
