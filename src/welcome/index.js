@@ -19,20 +19,22 @@ export const Welcome = () => {
               required
             />
           </div>
-          <div className="submit-button">
-            <input
-              id="send-email"
-              type="submit"
-              value=""
-              className="btn"
-              title="submit"
-            />
-            <img
-              id="roseimage"
-              /*onclick="submitForm()"*/
-              src={require("../photos/roseicon.svg")}
-              alt="rose icon"
-            />
+          <div className="submit-container">
+            <div className="submit-button">
+              <input
+                id="send-email"
+                type="submit"
+                value=""
+                className="btn"
+                title="submit"
+              />
+              <img
+                id="roseimage"
+                /*onclick="submitForm()"*/
+                src={require("../photos/roseicon.svg")}
+                alt="rose icon"
+              />
+            </div>
           </div>
         </form>
       </div>

@@ -13,7 +13,6 @@
 
 html {
   background: var(--main-blue);
-  text-align: center;
   margin: 0;
   padding: 0;
   font-family: "raleway", sans-serif;
@@ -69,23 +68,27 @@ html {
 
 .welcome {
   position: relative;
-  display: inline-block;
-  background-image: url(./photos/engagementPhoto.jpg);
   height: 100vh;
   width: 100vw;
+  background-image: url(./photos/engagementPhoto.jpg) center;
 }
 
 .title {
+  margin-top: 60vh;
   font-family: "Dancing Script", cursive;
   color: white;
   z-index: 9;
 }
 
-.email {
-  width: 100vw;
-  position: absolute;
+form {
   z-index: 9;
-  top: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-feild {
+  display: inline-block;
 }
 
 #email {
@@ -98,9 +101,12 @@ html {
   border-radius: 10px;
   text-align: center;
 }
-
+.submit-container {
+  display: inline-block;
+  margin: 10px;
+}
 .submit-button {
-  height: 3rem;
+  height: 2.2rem;
   width: 3rem;
   border: none;
   box-shadow: 0 0 5px;
