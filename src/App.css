@@ -72,10 +72,7 @@ html {
   display: inline-block;
   background-image: url(./photos/engagement.jpg) center;
   background-size: cover;
-}
-
-.main-image img {
-  box-shadow: 0 0 7px;
+  height: 100vh;
 }
 
 .title {
