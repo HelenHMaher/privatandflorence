@@ -67,10 +67,12 @@ html {
 /***************Welcome*************/
 
 .welcome {
-  position: relative;
+  position: absolute;
   height: 100vh;
   width: 100vw;
-  background-image: url(./photos/engagementPhoto.jpg) center;
+  background-image: url(./photos/engagementPhoto.jpg);
+  background-position: center;
+  background-size: auto;
 }
 
 .title {
@@ -78,6 +80,7 @@ html {
   font-family: "Dancing Script", cursive;
   color: white;
   z-index: 9;
+  text-align: center;
 }
 
 form {
@@ -105,6 +108,7 @@ form {
   display: inline-block;
   margin: 10px;
 }
+
 .submit-button {
   height: 2.2rem;
   width: 3rem;
@@ -128,4 +132,5 @@ form {
   opacity: 0;
   width: 3rem;
   height: 3rem;
+  cursor: pointer;
 }
