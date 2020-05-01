@@ -5,7 +5,7 @@ export const NavBar = () => {
     <nav id="navbar" className="nav">
       <ul className="nav-list">
         <li className="title">
-          <h1>Florence & Private</h1>
+          <h1>Florence & Privat</h1>
           <p>August 21, 2021</p>
         </li>
         <li>
