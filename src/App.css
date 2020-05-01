@@ -74,13 +74,14 @@ html {
 }
 
 .title {
-  opacity: 0.7;
   margin-left: 0;
   display: block;
   text-align: center;
   font-family: "Dancing Script", cursive;
   color: var(--main-white);
   z-index: 9;
+  text-shadow: -0.5px 0.5px 0 var(--main-grey), 1px 1px 0 black,
+    1px -1px 0 black, -0.5px -0.5px 0 var(--main-grey);
 }
 
 .title h1 {
@@ -181,10 +182,13 @@ form {
 }
 
 .topics > .header {
+  font-size: 3rem;
   text-align: center;
   padding: 10px;
   font-family: "Dancing Script", cursive;
   color: var(--main-white);
+  text-shadow: -0.5px 0.5px 0 var(--main-grey), 1px 1px 0 black,
+    1px -1px 0 black, -0.5px -0.5px 0 var(--main-grey);
 }
 
 /*********RSVP***********/
