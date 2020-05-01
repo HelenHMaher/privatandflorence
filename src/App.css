@@ -44,7 +44,7 @@ html {
   list-style: none;
   align-items: center;
   width: 100vw;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .nav-list a {
@@ -65,37 +65,47 @@ html {
 #roseicon {
   height: 5rem;
   padding-top: 10px;
-  margin-left: -40px;
-  margin-right: -40px;
 }
 
 .title {
+  opacity: 0.7;
+  margin-left: -40px;
+  display: block;
+  text-align: center;
   font-family: "Dancing Script", cursive;
   color: white;
   z-index: 9;
 }
 
 .title h1 {
-  font-size: 2rem;
+  line-height: 0rem;
+  font-size: 2.75rem;
+}
+
+.title p {
+  font-size: 1.5rem;
 }
 
 /***************Welcome*************/
 
 .welcome {
+  margin-top: 15vh;
   height: 85vh;
   width: 100vw;
+  background-color: var(--main-blue);
   background-image: url(./photos/engagementPhoto.jpg);
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
+  border: 1px solid black;
 }
 
 form {
-  margin-top: 15vh;
-  padding-top: 70vh;
+  padding: 70vh;
   z-index: 9;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .email-feild {
@@ -117,13 +127,18 @@ form {
   margin: 10px;
 }
 
+.submit-container :active {
+  transition-duration: 0.3sec;
+  transform: scale(0.9);
+}
+
 .submit-button {
   height: 2.2rem;
   width: 3rem;
-  border: 1px solid var(--main-blue);
+  border: none;
   box-shadow: 0 0 5px;
   border-radius: 10px;
-  background: var(--main-blue);
+  background: var(--main-grey);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,6 +148,7 @@ form {
 #roseimage {
   height: 2rem;
   position: absolute;
+  opacity: 0.5;
 }
 
 #send-email {

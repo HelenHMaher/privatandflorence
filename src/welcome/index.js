@@ -29,7 +29,7 @@ export const Welcome = () => {
               <img
                 id="roseimage"
                 /*onclick="submitForm()"*/
-                src={require("../photos/whiterose.svg")}
+                src={require("../photos/roseicon.svg")}
                 alt="rose icon"
               />
             </div>
