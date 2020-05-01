@@ -3,7 +3,7 @@ import React from "react";
 export const EventDetails = () => {
   return (
     <section id="event-details" className="topics">
-      <h2 className="details-header">Event Details</h2>
+      <h2 className="header">Event Details</h2>
       <ul id="detailsnav">
         <li>
           <a href="#hillsboro">Travel and Accomodations</a>

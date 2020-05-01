@@ -2,7 +2,7 @@ import React from "react";
 
 export const StoryText = () => {
   return (
-    <div className="story-text">
+    <p className="text">
       <p>
         We met in May 2017 in Washington, DC. At the time, Privat was in
         graduate school for economics at Howard University, and Florence was
@@ -35,7 +35,7 @@ export const StoryText = () => {
         corona virus as much as possible and hope that you will be able to
         celebrate with us!
       </p>
-    </div>
+    </p>
   );
 };
 

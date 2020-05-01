@@ -6,6 +6,7 @@
 :root {
   --main-black: rgb(0, 0, 0);
   --main-white: rgb(255, 255, 255);
+  --opaque-white: rgba(255, 255, 255, 0.7);
   --main-red: rgb(191, 10, 48);
   --main-blue: rgba(0, 40, 104, 0.7);
   --main-grey: rgb(241, 241, 241);
@@ -73,7 +74,7 @@ html {
   display: block;
   text-align: center;
   font-family: "Dancing Script", cursive;
-  color: white;
+  color: var(--main-white);
   z-index: 9;
 }
 
@@ -158,4 +159,21 @@ form {
   width: 3rem;
   height: 3rem;
   cursor: pointer;
+}
+
+/***********topics*************/
+
+.topics {
+  background: var(--opaque-white);
+  margin: 40px 40px 0px 40px;
+  border-radius: 1rem;
+}
+
+.topics > p {
+  padding: 40px;
+}
+
+.topics > .header {
+  text-align: center;
+  padding: 10px;
 }

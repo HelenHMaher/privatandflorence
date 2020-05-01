@@ -3,8 +3,8 @@ import React from "react";
 export const OurWedding = () => {
   return (
     <section id="our-wedding" className="topics">
-      <h2 className="wedding-header">Our Wedding</h2>
-      <p>dates, times, locations, dress code, registry</p>
+      <h2 className="header">Our Wedding</h2>
+      <p className="text">dates, times, locations, dress code, registry</p>
     </section>
   );
 };

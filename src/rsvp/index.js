@@ -3,10 +3,10 @@ import React from "react";
 export const Rsvp = () => {
   return (
     <section id="rsvp" className="rsvp">
-      <div className="rsvp-header">
+      <div className="header">
         <h2>RSVP</h2>
       </div>
-      <div className="rsvp-content">
+      <div className="text">
         <p>Sign up to receive updates!</p>
       </div>
       <div className="rsvp-links">
