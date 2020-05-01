@@ -5,10 +5,6 @@ export const Welcome = () => {
   return (
     <section id="welcome" className="welcome">
       <NavBar />
-      <div className="title">
-        <h1>Privat and Florence</h1>
-        <p>August 21, 2021</p>
-      </div>
       <div className="email">
         <form id="form" action="__">
           <div className="email-feild">
@@ -33,7 +29,7 @@ export const Welcome = () => {
               <img
                 id="roseimage"
                 /*onclick="submitForm()"*/
-                src={require("../photos/roseicon.svg")}
+                src={require("../photos/whiterose.svg")}
                 alt="rose icon"
               />
             </div>

@@ -7,20 +7,20 @@
   --main-black: rgb(0, 0, 0);
   --main-white: rgb(255, 255, 255);
   --main-red: rgb(191, 10, 48);
-  --main-blue: rgb(0, 40, 104);
+  --main-blue: rgba(0, 40, 104, 0.7);
   --main-grey: rgb(241, 241, 241);
 }
 
 html {
-  background: var(--main-blue);
+  background-image: url(./photos/rosebackground.jpg);
+  background-size: 30%;
   margin: 0;
   padding: 0;
   font-family: "raleway", sans-serif;
 }
 
 .backgroundContainer {
-  background: green;
-  opacity: 0.5;
+  background: var(--main-blue);
 }
 
 /******** NAV BAR *******/
@@ -44,7 +44,7 @@ html {
   list-style: none;
   align-items: center;
   width: 100vw;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .nav-list a {
@@ -69,6 +69,16 @@ html {
   margin-right: -40px;
 }
 
+.title {
+  font-family: "Dancing Script", cursive;
+  color: white;
+  z-index: 9;
+}
+
+.title h1 {
+  font-size: 2rem;
+}
+
 /***************Welcome*************/
 
 .welcome {
@@ -80,19 +90,11 @@ html {
   background-repeat: no-repeat;
 }
 
-.title {
-  margin-top: 15vh;
-  padding-top: 50vh;
-  font-family: "Dancing Script", cursive;
-  color: white;
-  z-index: 9;
-  text-align: center;
-}
-
 form {
+  margin-top: 15vh;
+  padding-top: 70vh;
   z-index: 9;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -105,7 +107,7 @@ form {
   height: 2rem;
   font-family: Cambria, Cochin, Georgia, "Times New Roman", Times, serif;
   font-size: 1rem;
-  border: none;
+  border: 1px solid white;
   box-shadow: 0 0 5px;
   border-radius: 10px;
   text-align: center;
@@ -118,10 +120,10 @@ form {
 .submit-button {
   height: 2.2rem;
   width: 3rem;
-  border: none;
+  border: 1px solid var(--main-blue);
   box-shadow: 0 0 5px;
   border-radius: 10px;
-  background: white;
+  background: var(--main-blue);
   display: flex;
   justify-content: center;
   align-items: center;

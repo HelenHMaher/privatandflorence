@@ -4,6 +4,10 @@ export const NavBar = () => {
   return (
     <nav id="navbar" className="nav">
       <ul className="nav-list">
+        <li className="title">
+          <h1>Florence and Private</h1>
+          <p>August 21, 2021</p>
+        </li>
         <li>
           <a href="#welcome">
             <img

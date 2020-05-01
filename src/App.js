@@ -22,6 +22,9 @@ function App() {
 
         <footer>
           <p>2020 Helen Maher</p>
+          <a href="https://www.freepik.com/free-photos-vectors/pattern">
+            Pattern vector created by lukasdedi - www.freepik.com
+          </a>
         </footer>
       </div>
     </div>
