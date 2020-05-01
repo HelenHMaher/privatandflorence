@@ -1,8 +1,10 @@
 import React from "react";
+import NavBar from "../navbar";
 
 export const Welcome = () => {
   return (
     <section id="welcome" className="welcome">
+      <NavBar />
       <div className="title">
         <h1>Privat and Florence</h1>
         <p>August 21, 2021</p>

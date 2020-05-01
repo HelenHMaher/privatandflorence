@@ -18,6 +18,11 @@ html {
   font-family: "raleway", sans-serif;
 }
 
+.backgroundContainer {
+  background: green;
+  opacity: 0.5;
+}
+
 /******** NAV BAR *******/
 
 .nav {
@@ -67,16 +72,17 @@ html {
 /***************Welcome*************/
 
 .welcome {
-  position: absolute;
-  height: 100vh;
+  height: 85vh;
   width: 100vw;
   background-image: url(./photos/engagementPhoto.jpg);
   background-position: center;
   background-size: auto;
+  background-repeat: no-repeat;
 }
 
 .title {
-  margin-top: 60vh;
+  margin-top: 15vh;
+  padding-top: 50vh;
   font-family: "Dancing Script", cursive;
   color: white;
   z-index: 9;
