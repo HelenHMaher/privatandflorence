@@ -25,7 +25,7 @@ export const InputEmail = () => {
           <img
             id="roseimage"
             /*onclick="submitForm()"*/
-            src={require("../photos/roseicon.svg")}
+            src={require("../photos/icons/roseicon.svg")}
             alt="rose icon"
           />
         </div>

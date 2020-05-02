@@ -11,7 +11,7 @@ export const NavBar = () => {
         <li>
           <a href="#welcome">
             <img
-              src={require("../photos/whiterose.svg")}
+              src={require("../photos/icons/whiterose.svg")}
               alt="Home"
               id="roseicon"
             />

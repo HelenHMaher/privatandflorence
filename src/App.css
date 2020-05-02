@@ -18,7 +18,7 @@ a {
 }
 
 html {
-  background-image: url(./photos/rosebackground.jpg);
+  background-image: url(./photos/icons/rosebackground.jpg);
   background-size: 30%;
   margin: 0;
   padding: 0;
@@ -97,12 +97,12 @@ html {
 /***************Welcome*************/
 
 .welcome {
-  margin-top: 15vh;
-  height: 85vh;
+  margin-top: 10vh;
+  height: 90vh;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.4);
-  background-image: url(./photos/engagementPhoto.jpg);
-  background-position: center;
+  background-image: url(./photos/icons/engagement.jpg);
+  background-position: top center;
   background-size: auto;
   background-repeat: no-repeat;
   border: 1px solid black;
