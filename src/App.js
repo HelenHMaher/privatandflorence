@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
-import OurStory from "./our-story";
+import OurStory from "./topics/our-story";
 import Welcome from "./welcome";
-import OurWedding from "./our-wedding";
-import EventDetails from "./event-details";
+import OurWedding from "./topics/our-wedding";
+import EventDetails from "./topics/event-details";
 import Rsvp from "./rsvp";
 
 function App() {
