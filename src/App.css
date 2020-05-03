@@ -174,18 +174,19 @@ form {
 
 .topics {
   background: var(--opaque-white);
-  margin: 5rem 40px 0px 40px;
+  margin: 2rem;
   border-radius: 1rem;
 }
 
 .topics > p {
-  padding: 40px;
+  padding: 0 2rem 2rem 2rem;
+  text-align: justify;
 }
 
 .topics > .header {
   font-size: 3rem;
   text-align: center;
-  padding: 10px;
+  padding-top: 2rem;
   font-family: "Dancing Script", cursive;
   color: var(--main-white);
   text-shadow: -0.5px 0.5px 0 var(--dark-grey), 1px 1px 0 var(--dark-grey),
