@@ -19,7 +19,7 @@ a {
 
 html {
   background-image: url(./photos/icons/rosebackground.jpg);
-  background-size: 30%;
+  background-size: 300px;
   margin: 0;
   padding: 0;
 }
@@ -174,7 +174,7 @@ form {
 
 .topics {
   background: var(--opaque-white);
-  margin: 2rem;
+  margin: 2rem 3.5rem;
   border-radius: 1rem;
 }
 
