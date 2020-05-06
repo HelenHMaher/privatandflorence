@@ -26,8 +26,15 @@ export const EventDetails = () => {
         >
           St. Matthew's Church
         </a>
-        .  475 SE 3rd Ave, Hillsboro, Oregon 97123 (also on <a id="stMatthewsFacebook" Facebook)
-
+        . 475 SE 3rd Ave, Hillsboro, Oregon 97123 (also on{" "}
+        <a
+          id="stMatthewsFacebook"
+          target="_blank"
+          href="https://www.facebook.com/stmatthewhillsboro/"
+        >
+          Facebook
+        </a>
+        )
       </p>
       <h3 id="reception">The Reception</h3>
     </section>
