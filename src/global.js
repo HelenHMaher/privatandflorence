@@ -49,6 +49,7 @@ html {
   z-index: 10;
   box-shadow: 0 2px 2px;
   max-height: 15vh;
+  opacity: 0;
 }
 
 .nav > ul {
