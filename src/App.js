@@ -18,7 +18,7 @@ function App() {
         <GlobalStyles />
         <div className="backgroundContainer">
           <div className="container">
-            <Welcome />
+            {/*<Welcome />
 
             <OurWedding />
 
@@ -26,7 +26,7 @@ function App() {
 
             <OurStory />
 
-            <Rsvp />
+            <Rsvp />*/}
 
             <footer>
               <p>2020 Helen Maher</p>

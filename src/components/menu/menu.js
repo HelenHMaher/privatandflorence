@@ -1,5 +1,5 @@
 import React from "react";
-import { StyledMenu } from "./Menu.styled";
+import { StyledMenu } from "./menu.styled";
 
 const Menu = () => {
   return (
