@@ -6,7 +6,7 @@ const Burger = () => {
     <StyledBurger>
       <div />
       <div />
-      div />
+      <div />
     </StyledBurger>
   );
 };
