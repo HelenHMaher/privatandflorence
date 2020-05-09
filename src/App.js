@@ -1,5 +1,6 @@
 import React from "react";
-import "./App.css";
+//import "./App.css";
+import { GlobalStyles } from "./global";
 import OurStory from "./topics/our-story";
 import Welcome from "./welcome";
 import OurWedding from "./topics/our-wedding";
@@ -9,6 +10,7 @@ import Rsvp from "./rsvp";
 function App() {
   return (
     <div className="backgroundContainer">
+      <GlobalStyles />
       <div className="container">
         <Welcome />
 
