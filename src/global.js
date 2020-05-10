@@ -2,9 +2,6 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
 
-@import "https://use.fontawesome.com/releases/v5.8.2/css/all.css";
-@import url("https://fonts.googleapis.com/css?family=Marck+Script&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 
 :root {
   --main-black: rgb(0, 0, 0);
@@ -35,9 +32,6 @@ html {
 .container {
   font-family: Cambria, Cochin, Georgia, "Times New Roman", Times, serif;
 }
-
-/******** NAV BAR *******/
-
 
 /***************Welcome*************/
 
