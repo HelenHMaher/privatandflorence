@@ -34,11 +34,11 @@ function App() {
                 Pattern vector created by lukasdedi - www.freepik.com
               </a>
             </footer>
-            <div>
-              <Burger open={open} setOpen={setOpen} />
-              <Menu open={open} setOpen={setOpen} />
-            </div>
           </div>
+        </div>
+        <div>
+          <Burger open={open} setOpen={setOpen} />
+          <Menu open={open} setOpen={setOpen} />
         </div>
       </>
     </ThemeProvider>
