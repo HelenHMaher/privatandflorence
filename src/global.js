@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import roseBackground from "./photos/icons/rosebackground.jpg";
 
 export const GlobalStyles = createGlobalStyle`
 
@@ -19,7 +20,7 @@ a {
 }
 
 html {
-  background-image: url(./photos/icons/rosebackground.jpg);
+  background-image: url(${roseBackground});
   background-size: 300px;
   margin: 0;
   padding: 0;
@@ -33,26 +34,6 @@ html {
   font-family: Cambria, Cochin, Georgia, "Times New Roman", Times, serif;
 }
 
-/***************Welcome*************/
-
-.welcome {
-  margin-top: 10vh;
-  height: 90vh;
-  width: 100vw;
-  background-color: rgba(0, 0, 0, 0.4);
-  background-image: url(./photos/icons/engagement.jpg);
-  background-position: top center;
-  background-size: auto;
-  background-repeat: no-repeat;
-  border: 1px solid black;
-}
-
-.email {
-  padding-top: 70vh;
-}
-
-
-/***********topics*************/
 
 .topics {
   background: var(--opaque-white);
@@ -75,14 +56,10 @@ html {
     1px -1px 0 var(--main-grey), -0.5px -0.5px 0 var(--main-grey);
 }
 
-/*********RSVP***********/
-
 .rsvp {
   color: white;
   text-align: center;
 }
-
-/*********footer*********/
 
 footer {
   padding-bottom: 10px;
