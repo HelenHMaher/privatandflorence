@@ -12,7 +12,7 @@ export const StyledHeader = styled.section`
     box-shadow: 0 2px 2px;
     height: 15vh;
     font-family: cursive;
-    color: var(--main-white);
+    color: white;
     text-shadow: -0.5px 0.5px 0 var(--main-grey), 1px 1px 0 black,
       1px -1px 0 var(--dark-grey), -0.5px -0.5px 0 var(--main-grey);
   }

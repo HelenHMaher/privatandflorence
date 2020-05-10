@@ -5,10 +5,9 @@ export const GlobalStyles = createGlobalStyle`
 
 
 :root {
-  --main-black: rgb(0, 0, 0);
-  --main-white: rgb(255, 255, 255);
   --opaque-white: rgba(255, 255, 255, 0.8);
   --main-red: rgb(191, 10, 48);
+  --main-full-blue: rgba(0, 40, 104);
   --main-blue: rgba(0, 40, 104, 0.7);
   --main-grey: rgb(241, 241, 241);
   --dark-grey: rgb(100, 100, 100);
@@ -54,7 +53,7 @@ html {
   text-align: center;
   padding-top: 2rem;
   font-family: cursive;
-  color: var(--main-white);
+  color: white;
   text-shadow: -0.5px 0.5px 0 var(--dark-grey), 1px 1px 0 var(--dark-grey),
     1px -1px 0 var(--main-grey), -0.5px -0.5px 0 var(--main-grey);
 }
