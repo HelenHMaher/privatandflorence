@@ -27,7 +27,10 @@ html {
 }
 
 .backgroundContainer {
+  position: absolute;
   background: var(--main-blue);
+  left: 0;
+  top: 0;
 }
 
 .container {
