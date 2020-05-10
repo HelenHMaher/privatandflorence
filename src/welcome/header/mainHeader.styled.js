@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const StyledHeader = styled.section`
   .title {
+    text-align: center;
     background-color: var(--main-red);
     position: fixed;
     width: 100%;
@@ -9,8 +10,7 @@ export const StyledHeader = styled.section`
     left: 0;
     z-index: 10;
     box-shadow: 0 2px 2px;
-    max-height: 15vh;
-    text-align: center;
+    height: 15vh;
     font-family: "Dancing Script", cursive;
     color: var(--main-white);
     text-shadow: -0.5px 0.5px 0 var(--main-grey), 1px 1px 0 black,
@@ -18,11 +18,14 @@ export const StyledHeader = styled.section`
   }
 
   .title h1 {
-    line-height: 0rem;
     font-size: 2.75rem;
+    display: inline-block;
+    padding: 0px 5px;
   }
 
   .title p {
     font-size: 1.5rem;
+    display: inline-block;
+    padding: 0px 5px;
   }
 `;
