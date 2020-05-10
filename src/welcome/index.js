@@ -1,11 +1,11 @@
 import React from "react";
-import NavBar from "../navbar";
+import MainHeader from "./header";
 import InputEmail from "../input-feild";
 
 export const Welcome = () => {
   return (
     <section id="welcome" className="welcome">
-      <NavBar />
+      <MainHeader />
       <div className="email">
         <InputEmail />
       </div>

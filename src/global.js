@@ -38,65 +38,6 @@ html {
 
 /******** NAV BAR *******/
 
-.nav {
-  background-color: var(--main-red);
-  display: flex;
-  position: fixed;
-  align-items: center;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  box-shadow: 0 2px 2px;
-  max-height: 15vh;
-}
-
-.nav > ul {
-  display: flex;
-  font-family: "Dancing Script", cursive;
-  list-style: none;
-  align-items: center;
-  width: 100vw;
-  justify-content: space-around;
-}
-
-.nav-list a {
-  opacity: 0.7;
-  display: block;
-  text-align: center;
-  font-size: 2.75rem;
-}
-
-.nav-list a:hover {
-  transition-duration: 0.4s;
-  transform: scale(1.1);
-  opacity: 1;
-}
-
-#roseicon {
-  height: 5rem;
-  padding-top: 10px;
-}
-
-.title {
-  margin-left: 0;
-  display: block;
-  text-align: center;
-  font-family: "Dancing Script", cursive;
-  color: var(--main-white);
-  z-index: 9;
-  text-shadow: -0.5px 0.5px 0 var(--main-grey), 1px 1px 0 black,
-    1px -1px 0 var(--dark-grey), -0.5px -0.5px 0 var(--main-grey);
-}
-
-.title h1 {
-  line-height: 0rem;
-  font-size: 2.75rem;
-}
-
-.title p {
-  font-size: 1.5rem;
-}
 
 /***************Welcome*************/
 
