@@ -1,5 +1,5 @@
 import React from "react";
-import InputEmail from "../input-feild";
+import InputFeild from "../input-feild";
 
 export const Rsvp = () => {
   return (
@@ -10,7 +10,7 @@ export const Rsvp = () => {
       <div className="text">
         <p>Sign up to receive updates!</p>
       </div>
-      <InputEmail />
+      <InputFeild />
       <div className="rsvp-links">
         <a
           id="profile-link"

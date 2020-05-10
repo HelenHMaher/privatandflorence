@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const StyledMenu = styled.nav`
-  font-family: "Dancing Script";
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,6 +18,7 @@ export const StyledMenu = styled.nav`
   }
 
   a {
+    font-family: cursive;
     font-size: 2rem;
     text-transform: uppercase;
     padding: 2rem 0;
