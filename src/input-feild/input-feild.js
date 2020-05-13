@@ -1,9 +1,31 @@
-import React from "react";
-import { StyledInputFeild } from "./input-feild.styled";
+import React, { useState } from "react";
+import StyledInputFeild from "./input-feild.styled";
+import axios from "axios";
 
-export const InputFeild = () => {
+export function EmailForm(props) {
+  const [email, setEmail] = useState("");
+
+  const handleSubmit = (evt) => {
+    evt.preventDefault();
+
+    axios({
+      method: "get",
+      url:
+        "https://script.google.com/macros/s/AKfycbxFni3Y1-iAoKmfQ17ABNxfaODC5vOG6oqWC0pYK6tLk6oMmv8/exec",
+      params: {
+        email: email,
+      },
+    })
+      .then(function (response) {
+        console.log(response);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+  };
+
   return (
-    <StyledInputFeild id="form" action="__">
+    <StyledInputFeild id="form" action="__" onSubmit={handleSubmit}>
       <div className="email-feild">
         <input
           name="email"
@@ -12,20 +34,14 @@ export const InputFeild = () => {
           className="fill-in-blank"
           placeholder="enter your email to receive updates"
           required
+          onChange={(e) => setEmail(e.target.value)}
         />
       </div>
       <div className="submit-container">
         <div className="submit-button">
-          <input
-            id="send-email"
-            type="submit"
-            value=""
-            className="btn"
-            title="submit"
-          />
+          <input id="send-email" type="submit" className="btn" title="submit" />
           <img
             id="roseimage"
-            /*onclick="submitForm()"*/
             src={require("../photos/icons/roseicon.svg")}
             alt="rose icon"
           />
@@ -33,6 +49,6 @@ export const InputFeild = () => {
       </div>
     </StyledInputFeild>
   );
-};
+}
 
-export default InputFeild;
+export default EmailForm;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledInputFeild = styled.form`
+const StyledInputFeild = styled.form`
   z-index: 9;
   margin: auto;
   display: flex;
@@ -57,3 +57,5 @@ export const StyledInputFeild = styled.form`
     cursor: pointer;
   }
 `;
+
+export default StyledInputFeild;
