@@ -7,13 +7,15 @@ export function EmailForm(props) {
 
   const handleSubmit = (evt) => {
     evt.preventDefault();
+    const emailToSend = email;
+    setEmail("");
 
     axios({
       method: "get",
       url:
         "https://script.google.com/macros/s/AKfycbxFni3Y1-iAoKmfQ17ABNxfaODC5vOG6oqWC0pYK6tLk6oMmv8/exec",
       params: {
-        email: email,
+        email: emailToSend,
       },
     })
       .then(function (response) {
@@ -35,6 +37,7 @@ export function EmailForm(props) {
           placeholder="enter your email to receive updates"
           required
           onChange={(e) => setEmail(e.target.value)}
+          value={email}
         />
       </div>
       <div className="submit-container">
