@@ -9,7 +9,7 @@ export function EmailForm(props) {
     evt.preventDefault();
     const emailToSend = email;
     setEmail("");
-
+    alert("Thanks for for submitting, we'll keep you updated!");
     axios({
       method: "get",
       url:
