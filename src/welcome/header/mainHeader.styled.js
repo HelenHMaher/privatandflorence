@@ -13,19 +13,24 @@ export const StyledHeader = styled.section`
     height: 15vh;
     font-family: cursive;
     color: white;
-    text-shadow: -0.5px 0.5px 0 var(--main-grey), 1px 1px 0 black,
-      1px -1px 0 var(--dark-grey), -0.5px -0.5px 0 var(--main-grey);
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5rem;
   }
 
   .title h1 {
+    position: absolute;
     font-size: 2.75rem;
-    display: inline-block;
-    padding: 0px 5px;
+    padding: 0.5rem 0;
+    line-height: 2.5rem;
+    margin: auto;
   }
 
   .title p {
     font-size: 1.5rem;
-    display: inline-block;
-    padding: 0px 5px;
+    display: block;
+    line-height: 2.5rem;
+    padding-top: 1rem;
+    right: 10px;
   }
 `;

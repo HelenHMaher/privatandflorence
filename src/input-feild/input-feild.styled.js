@@ -20,7 +20,12 @@ const StyledInputFeild = styled.form`
     box-shadow: 0 0 5px;
     border-radius: 10px;
     text-align: center;
+    :focus {
+      outline: none;
+      border: 1px solid black;
+    }
   }
+
   .submit-container {
     display: inline-block;
     margin: 10px;
@@ -28,6 +33,8 @@ const StyledInputFeild = styled.form`
 
   .submit-container :active {
     transition-duration: 0.3sec;
+    transition: ease-in;
+    border: 1px solid black;
     transform: scale(0.9);
   }
 
@@ -36,7 +43,7 @@ const StyledInputFeild = styled.form`
     width: 3rem;
     box-shadow: 0 0 5px black;
     border-radius: 10px;
-    background: var(--main-grey);
+    background: white;
     display: flex;
     justify-content: center;
     align-items: center;

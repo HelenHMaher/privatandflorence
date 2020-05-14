@@ -4,7 +4,7 @@ export const StyledMenu = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: var(--main-full-blue);
+  background: var(--strong-blue);
   height: 100vh;
   text-align: left;
   padding: 2rem;
@@ -25,7 +25,7 @@ export const StyledMenu = styled.nav`
     padding: 2rem 0;
     font-weight: bold;
     letter-spacing: 0.5rem;
-    color: ${({ theme }) => theme.primaryDark};
+    color: white;
     text-decoration: none;
     transition: color 0.3s linear;
 
@@ -35,7 +35,7 @@ export const StyledMenu = styled.nav`
     }
 
     &:hover {
-      color: ${({ theme }) => theme.primaryHover};
+      color: var(--blue);
     }
   }
 `;

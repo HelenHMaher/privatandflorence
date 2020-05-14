@@ -7,9 +7,9 @@ export const GlobalStyles = createGlobalStyle`
 :root {
   --opaque-white: rgba(255, 255, 255, 0.8);
   --main-red: rgb(191, 10, 48);
-  --main-full-blue: rgba(0, 40, 104);
+  --strong-blue: rgba(0, 40, 104, 0.9);
   --main-blue: rgba(0, 40, 104, 0.7);
-  --main-grey: rgb(241, 241, 241);
+  --blue: rgba(0, 20, 84);
   --dark-grey: rgb(100, 100, 100);
 }
 
@@ -53,9 +53,7 @@ html {
   text-align: center;
   padding-top: 2rem;
   font-family: cursive;
-  color: white;
-  text-shadow: -0.5px 0.5px 0 var(--dark-grey), 1px 1px 0 var(--dark-grey),
-    1px -1px 0 var(--main-grey), -0.5px -0.5px 0 var(--main-grey);
+  color: var(--main-blue);
 }
 
 .rsvp {

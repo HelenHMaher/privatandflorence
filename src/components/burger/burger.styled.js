@@ -18,14 +18,12 @@ export const StyledBurger = styled.button`
   &:focus {
     outline: none;
   }
+  &:active {
+    opacity: 0.5;
+    transition-duration: 0.3sec;
+  }
 
-  div {
-    width: 2rem;
-    height: 0.25rem;
-    background: var(--main-grey);
-    border-radius: 10px;
-    transition: all 0.3s linear;
-    position: relative;
-    transform-origin: 1px;
+  img {
+    width: 5rem;
   }
 `;
