@@ -41,6 +41,7 @@ html {
   background: var(--opaque-white);
   margin: 2rem 3.5rem;
   border-radius: 1rem;
+  padding: 2rem;
 }
 
 .topics > p {

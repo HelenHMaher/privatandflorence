@@ -37,23 +37,36 @@ export const EventDetails = () => {
         </a>
       </p>
       <h3 id="reception">The Reception</h3>
-      The reception will take place at the Peterkort family rose farm.
-      <br />
-      <a
-        id="peterkortroses"
-        href="https://www.google.com/maps/place/Peterkort+Roses/@45.4343164,-122.9718975,17z/data=!3m1!4b1!4m5!3m4!1s0x549511584f6dc597:0x39f32921471f1123!8m2!3d45.4343164!4d-122.9697035"
-        target="_blank"
-      >
-        Google Maps
-      </a>
-      <a
-        id="peterkortRosesWebsite"
-        href="http://peterkortroses.com/"
-        target="_blank"
-      >
-        Peterkort Roses
-      </a>
+      <p>
+        The reception will take place at the Peterkort family rose farm.
+        <br />
+        <a
+          id="peterkortroses"
+          href="https://www.google.com/maps/place/Peterkort+Roses/@45.4343164,-122.9718975,17z/data=!3m1!4b1!4m5!3m4!1s0x549511584f6dc597:0x39f32921471f1123!8m2!3d45.4343164!4d-122.9697035"
+          target="_blank"
+        >
+          Google Maps
+        </a>
+        <a
+          id="peterkortRosesWebsite"
+          href="http://peterkortroses.com/"
+          target="_blank"
+        >
+          Peterkort Roses
+        </a>
+      </p>
       <h3 id="hillsboro">Travel and Accomodations</h3>
+      <p>
+        <a
+          id="McMenamins"
+          href="https://www.mcmenamins.com/grand-lodge"
+          target="_blank"
+        >
+          McMenamins Grand Lodge
+        </a>
+        <br />
+        3505 Pacific Ave., Forest Grove, OR
+      </p>
     </section>
   );
 };
