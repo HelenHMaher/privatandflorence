@@ -12,6 +12,16 @@ import Rsvp from "./rsvp";
 
 function App() {
   const [open, setOpen] = useState(false);
+  let password = prompt("enter the password");
+  if (password === "let me in") {
+    alert("correct!");
+  }
+  /*const password=prompt('Enter Password', ' ');
+  const pass1="password";
+  if (password==pass1) 
+    alert('Correct Password! Click OK to Enter!'); 
+    else { window.location="http://duckduckgo.com/";*/
+
   return (
     <ThemeProvider theme={theme}>
       <>
