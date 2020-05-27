@@ -14,8 +14,14 @@ export const GlobalStyles = createGlobalStyle`
 }
 
 a {
-  color: white;
+  color: var(--main-blue);
   text-decoration: none;
+  text-shadow: 0 0 1px white;
+}
+
+a:hover {
+  color: var(--main-red);
+  
 }
 
 html {
@@ -66,6 +72,11 @@ footer {
   padding-bottom: 10px;
   padding-left: 10px;
   color: white;
+}
+
+footer a {
+  color: white;
+  text-shadow: none;
 }
 
 

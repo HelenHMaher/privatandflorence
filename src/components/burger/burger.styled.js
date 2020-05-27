@@ -15,12 +15,18 @@ export const StyledBurger = styled.button`
   padding: 0;
   z-index: 10;
 
+  &:hover {
+    opacity: 0.7;
+    transition-duration: 0.3sec;
+  }
+
   &:focus {
     outline: none;
   }
   &:active {
+    transform: scale(0.9);
     opacity: 0.5;
-    transition-duration: 0.3sec;
+    transition-duration: 0.5sec;
   }
 
   img {
