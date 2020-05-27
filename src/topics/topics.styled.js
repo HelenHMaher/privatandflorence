@@ -5,6 +5,7 @@ export const StyledTopics = styled.section`
   margin: 2rem 3.5rem;
   border-radius: 1rem;
   padding: 2rem;
+  font-size: 18px;
 
   p {
     padding: 0 2rem 2rem 2rem;
@@ -27,5 +28,17 @@ export const StyledTopics = styled.section`
 
   a:hover {
     color: var(--main-red);
+  }
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    margin: 2rem 1rem;
+    padding: 0.5rem;
+    p {
+      padding: 0 0.5rem 0.5rem 0.5rem;
+    }
+    .header {
+      font-size: 2rem;
+      padding-top: 0.5rem;
+    }
   }
 `;

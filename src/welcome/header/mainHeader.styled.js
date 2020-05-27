@@ -41,12 +41,12 @@ export const StyledHeader = styled.section`
       top: 1rem;
       font-size: 2rem;
       right: 0;
-      width: 75%;
+      width: 80%;
     }
     .title p {
       top: 3.2rem;
       font-size: 1rem;
-      width: 75%;
+      width: 80%;
       right: 0;
     }
   }

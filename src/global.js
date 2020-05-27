@@ -43,10 +43,17 @@ footer {
   color: white;
 }
 
+@media (max-width: ${({ theme }) => theme.mobile}) {
+  footer a {
+    font-size: 10px;
+  }
+}
+
 footer a {
   color: white;
   text-shadow: none;
   text-decoration: none;
+  font-size: 14px;
 }
 
 footer a:hover {
