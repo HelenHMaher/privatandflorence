@@ -11,16 +11,7 @@ export const Rsvp = () => {
         <p>Sign up to receive updates!</p>
       </div>
       <InputFeild />
-      <div className="rsvp-links">
-        <a
-          id="profile-link"
-          href="mailto:helenhmaher@gmail.com"
-          target="_blank"
-          className="rsvp-btn"
-        >
-          <i className="fas fa-at"></i>Email
-        </a>
-      </div>
+      <div className="links">??? Facebook Group ???</div>
     </section>
   );
 };

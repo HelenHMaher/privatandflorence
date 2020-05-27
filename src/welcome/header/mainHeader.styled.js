@@ -32,4 +32,22 @@ export const StyledHeader = styled.section`
     top: 2.2rem;
     width: 100%;
   }
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    .title {
+      letter-spacing: 0.1rem;
+    }
+    .title h1 {
+      top: 1rem;
+      font-size: 2rem;
+      right: 0;
+      width: 75%;
+    }
+    .title p {
+      top: 3.2rem;
+      font-size: 1rem;
+      width: 75%;
+      right: 0;
+    }
+  }
 `;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledBurger = styled.button`
   position: fixed;
-  top: 5%;
+  top: 2rem;
   left: 2rem;
   display: flex;
   flex-direction: column;
@@ -27,6 +27,10 @@ export const StyledBurger = styled.button`
     transform: scale(0.9);
     opacity: 0.5;
     transition-duration: 0.5sec;
+  }
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    left: 1rem;
   }
 
   img {

@@ -9,19 +9,8 @@ export const GlobalStyles = createGlobalStyle`
   --main-red: rgb(191, 10, 48);
   --strong-blue: rgba(0, 40, 104, 0.9);
   --main-blue: rgba(0, 40, 104, 0.7);
-  --blue: rgba(0, 20, 84);
+  --blue: #4c5a87;
   --dark-grey: rgb(100, 100, 100);
-}
-
-a {
-  color: var(--main-blue);
-  text-decoration: none;
-  text-shadow: 0 0 1px white;
-}
-
-a:hover {
-  color: var(--main-red);
-  
 }
 
 html {
@@ -42,33 +31,13 @@ html {
   font-family: Cambria, Cochin, Georgia, "Times New Roman", Times, serif;
 }
 
-
-.topics {
-  background: var(--opaque-white);
-  margin: 2rem 3.5rem;
-  border-radius: 1rem;
-  padding: 2rem;
-}
-
-.topics > p {
-  padding: 0 2rem 2rem 2rem;
-  text-align: justify;
-}
-
-.topics > .header {
-  font-size: 3rem;
-  text-align: center;
-  padding-top: 2rem;
-  font-family: cursive;
-  color: var(--main-blue);
-}
-
 .rsvp {
   color: white;
   text-align: center;
 }
 
 footer {
+  margin-top: 200px;
   padding-bottom: 10px;
   padding-left: 10px;
   color: white;
@@ -77,6 +46,11 @@ footer {
 footer a {
   color: white;
   text-shadow: none;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 
