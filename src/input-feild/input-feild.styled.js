@@ -26,6 +26,9 @@ const StyledInputFeild = styled.form`
     }
   }
 
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+  }
+
   .submit-container {
     display: inline-block;
     margin-left: 10px;

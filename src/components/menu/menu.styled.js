@@ -32,6 +32,7 @@ export const StyledMenu = styled.nav`
     @media (max-width: ${({ theme }) => theme.mobile}) {
       font-size: 1.5rem;
       text-align: left;
+      letter-spacing: 0.2rem;
     }
 
     &:hover {
