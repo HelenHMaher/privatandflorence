@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51591d4097488606766b1b0193c3488c",
+    "revision": "4a2ed7ee3e9b80ae92b27e0af23a49d8",
     "url": "/privatandflorence/index.html"
   },
   {
-    "revision": "d735d2f2bc8f05b154d7",
-    "url": "/privatandflorence/static/js/2.e5e3170c.chunk.js"
+    "revision": "c9b273efff53ea69084c",
+    "url": "/privatandflorence/static/js/2.8723b394.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/privatandflorence/static/js/2.e5e3170c.chunk.js.LICENSE.txt"
+    "url": "/privatandflorence/static/js/2.8723b394.chunk.js.LICENSE.txt"
   },
   {
     "revision": "c4fb754ea136951f21b1",

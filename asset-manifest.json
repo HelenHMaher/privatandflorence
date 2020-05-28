@@ -4,12 +4,12 @@
     "main.js.map": "/privatandflorence/static/js/main.5fc87c9d.chunk.js.map",
     "runtime-main.js": "/privatandflorence/static/js/runtime-main.54a7052e.js",
     "runtime-main.js.map": "/privatandflorence/static/js/runtime-main.54a7052e.js.map",
-    "static/js/2.e5e3170c.chunk.js": "/privatandflorence/static/js/2.e5e3170c.chunk.js",
-    "static/js/2.e5e3170c.chunk.js.map": "/privatandflorence/static/js/2.e5e3170c.chunk.js.map",
+    "static/js/2.8723b394.chunk.js": "/privatandflorence/static/js/2.8723b394.chunk.js",
+    "static/js/2.8723b394.chunk.js.map": "/privatandflorence/static/js/2.8723b394.chunk.js.map",
     "index.html": "/privatandflorence/index.html",
-    "precache-manifest.510cedc4a469e7593092f798a49ca7a4.js": "/privatandflorence/precache-manifest.510cedc4a469e7593092f798a49ca7a4.js",
+    "precache-manifest.4a6a5dbd076470ba60a3d1a05ee6e066.js": "/privatandflorence/precache-manifest.4a6a5dbd076470ba60a3d1a05ee6e066.js",
     "service-worker.js": "/privatandflorence/service-worker.js",
-    "static/js/2.e5e3170c.chunk.js.LICENSE.txt": "/privatandflorence/static/js/2.e5e3170c.chunk.js.LICENSE.txt",
+    "static/js/2.8723b394.chunk.js.LICENSE.txt": "/privatandflorence/static/js/2.8723b394.chunk.js.LICENSE.txt",
     "static/media/engagement.jpg": "/privatandflorence/static/media/engagement.ea072bc6.jpg",
     "static/media/rosebackground.jpg": "/privatandflorence/static/media/rosebackground.c1f0df0c.jpg",
     "static/media/roseicon.svg": "/privatandflorence/static/media/roseicon.f5d2608b.svg",
@@ -17,7 +17,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.54a7052e.js",
-    "static/js/2.e5e3170c.chunk.js",
+    "static/js/2.8723b394.chunk.js",
     "static/js/main.5fc87c9d.chunk.js"
   ]
 }
