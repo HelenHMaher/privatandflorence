@@ -4,7 +4,7 @@ import { StyledTopics } from "../topics.styled";
 export const EventDetails = () => {
   return (
     <StyledTopics>
-      <section id="event-details" className="topics">
+      <section className="topics">
         <h2 className="header">Event Details</h2>
         <ul id="detailsnav">
           <li>

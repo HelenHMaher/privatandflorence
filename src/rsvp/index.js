@@ -11,7 +11,9 @@ export const Rsvp = () => {
         <p>Sign up to receive updates!</p>
       </div>
       <InputFeild />
-      <div className="links">??? Facebook Group ???</div>
+      <div className="links">
+        <p>??? Facebook Group ???</p>
+      </div>
     </section>
   );
 };

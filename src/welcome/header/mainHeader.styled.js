@@ -39,7 +39,7 @@ export const StyledHeader = styled.section`
     }
     .title h1 {
       top: 1rem;
-      font-size: 2rem;
+      font-size: 1.75rem;
       right: 0;
       width: 80%;
     }

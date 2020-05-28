@@ -28,7 +28,7 @@ const StyledInputFeild = styled.form`
 
   .submit-container {
     display: inline-block;
-    margin: 10px;
+    margin-left: 10px;
   }
 
   .submit-container :active {

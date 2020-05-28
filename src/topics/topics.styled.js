@@ -15,7 +15,6 @@ export const StyledTopics = styled.section`
   .header {
     font-size: 3rem;
     text-align: center;
-    padding-top: 2rem;
     font-family: cursive;
     color: var(--main-blue);
   }
@@ -28,6 +27,10 @@ export const StyledTopics = styled.section`
 
   a:hover {
     color: var(--main-red);
+  }
+
+  .linkHolder {
+    height: 2rem;
   }
 
   @media (max-width: ${({ theme }) => theme.mobile}) {

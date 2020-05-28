@@ -30,7 +30,7 @@ export const StyledBurger = styled.button`
   }
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
-    left: 1rem;
+    left: 0.5rem;
   }
 
   img {
