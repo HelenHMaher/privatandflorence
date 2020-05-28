@@ -107,13 +107,16 @@ module.exports = function (proxy, allowedHost) {
 
     setup: function (app) {
       app.all("*", function (req, res, next) {
-        if (process.env.AUTH_USER && process.env.AUTH_PASSWORD) {
+        if (
+          process.env.REACT_APP_AUTH_USER &&
+          process.env.REACT_APP_AUTH_PASSWORD
+        ) {
           var credentials = auth(req);
 
           if (
             !credentials ||
-            credentials.name !== process.env.AUTH_USER ||
-            credentials.pass !== process.env.AUTH_PASSWORD
+            credentials.name !== process.env.REACT_APP_AUTH_USER ||
+            credentials.pass !== process.env.REACT_APP_AUTH_PASSWORD
           ) {
             res.statusCode = 401;
             res.setHeader("WWW-Authenticate", 'Basic realm="Prototype Access"');
