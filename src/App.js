@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useLocalStorage } from "react";
 //import "./App.css";
 import { GlobalStyles } from "./global";
 import { ThemeProvider } from "styled-components";
@@ -10,34 +10,45 @@ import Rsvp from "./rsvp";
 
 function App() {
   const [open, setOpen] = useState(false);
+  const [password, setPassword] = useState("");
 
-  return (
-    <ThemeProvider theme={theme}>
-      <>
-        <GlobalStyles />
-        <div className="backgroundContainer">
-          <div className="container">
-            <Welcome />
+  /**
+   * If there is no password state then you render a simple input field
+   * IF there is a password state, you check if password is correct (use a hardcoded value for now)
+   * and if it matches you render as per usual
+   * If the password state is incorrect then you do not render anything
+   */
 
-            <Topics />
+  if (password !== "gaboregon") {
+    return <div> You are fail </div>;
+  } else
+    return (
+      <ThemeProvider theme={theme}>
+        <>
+          <GlobalStyles />
+          <div className="backgroundContainer">
+            <div className="container">
+              <Welcome />
 
-            <Rsvp />
+              <Topics />
 
-            <footer>
-              <p>2020 Helen Maher</p>
-              <a href="https://www.freepik.com/free-photos-vectors/pattern">
-                Pattern vector created by lukasdedi - www.freepik.com
-              </a>
-            </footer>
+              <Rsvp />
+
+              <footer>
+                <p>2020 Helen Maher</p>
+                <a href="https://www.freepik.com/free-photos-vectors/pattern">
+                  Pattern vector created by lukasdedi - www.freepik.com
+                </a>
+              </footer>
+            </div>
           </div>
-        </div>
-        <div>
-          <Burger open={open} setOpen={setOpen} />
-          <Menu open={open} setOpen={setOpen} />
-        </div>
-      </>
-    </ThemeProvider>
-  );
+          <div>
+            <Burger open={open} setOpen={setOpen} />
+            <Menu open={open} setOpen={setOpen} />
+          </div>
+        </>
+      </ThemeProvider>
+    );
 }
 
 export default App;
