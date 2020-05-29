@@ -18,7 +18,12 @@ function App() {
   }
 
   if (!password) {
-    return <Login clickHandler={handleSubmit} />;
+    return (
+      <Login
+        clickHandler={handleSubmit}
+        text="(check the header of your email)"
+      />
+    );
   } else if (password !== "gaboregon") {
     return <Login clickHandler={handleSubmit} text="Incorrect Password" />;
   } else {
