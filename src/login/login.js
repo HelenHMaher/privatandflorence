@@ -1,41 +1,27 @@
 import React, { useState } from "react";
 import StyledLogin from "./login.styled";
 
-export function EmailForm(props) {
-    return(
-        <StyledLogin>
-            /*function Login() {
-  const [password, inputPassword] = useState("");
+export function Login(props) {
+  const [input, inputPassword] = useState("");
+  const clickHandler = props.clickHandler;
 
-  const handleSubmit = (evt) => {
-    evt.preventDefault();
-    const confirmPassword = "admin";
-    if (password === confirmPassword) {
-      window.location = "./home";
-    } else {
-      alert("Passwords do not match.");
-    }
-  };
   return (
-    <div className="login">
+    <StyledLogin className="login">
       <label for="pswd">Enter your password: </label>
       <input
         type="password"
         id="pswd"
         onChange={(e) => inputPassword(e.target.value)}
-        value={password}
+        value={input}
       />
       <input
         type="submit"
         title="submit"
         className="btn"
-        onClick={handleSubmit}
+        onClick={(e) => clickHandler(input)}
       />
-    </div>
+    </StyledLogin>
   );
-}*/
-
-
-        </StyledLogin>
-    )
 }
+
+export default Login;
