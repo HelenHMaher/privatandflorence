@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 //import "./App.css";
 import { GlobalStyles } from "./global";
-import { GlobalLogin } from "./login/globalLogin";
+import { StyledLogin } from "./login/gStyledLogin";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./theme";
 import { Burger, Menu } from "./components";
@@ -9,11 +9,14 @@ import Welcome from "./welcome";
 import Topics from "./topics";
 import Rsvp from "./rsvp";
 import Login from "./login";
+import { useOnClickOutside } from "./components/hooks";
 
 function App() {
   const [open, setOpen] = useState(false);
-  const [password, setPassword] = useState(null);
+  const node = useRef();
+  useOnClickOutside(node, () => setOpen(false));
 
+  const [password, setPassword] = useState(null);
   function handleSubmit(input) {
     setPassword(input);
   }
@@ -21,14 +24,15 @@ function App() {
   if (!password) {
     return (
       <ThemeProvider theme={theme}>
-        <GlobalLogin />
-        <Login clickHandler={handleSubmit} text="" />
+        <StyledLogin>
+          <Login clickHandler={handleSubmit} text="" />
+        </StyledLogin>
       </ThemeProvider>
     );
   } else if (password !== "gaboregon") {
     return (
       <ThemeProvider theme={theme}>
-        <GlobalLogin />
+        {/*<GlobalLogin />*/}
         <Login clickHandler={handleSubmit} text="Incorrect Password" />
       </ThemeProvider>
     );
@@ -53,7 +57,7 @@ function App() {
               </footer>
             </div>
           </div>
-          <div>
+          <div ref={node}>
             <Burger open={open} setOpen={setOpen} />
             <Menu open={open} setOpen={setOpen} />
           </div>

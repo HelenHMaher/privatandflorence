@@ -1,9 +1,7 @@
-import { createGlobalStyle } from "styled-components";
+import styled from "styled-components";
 import sweetTokyo from "../photos/sweetTokyo.jpg";
 
-export const GlobalLogin = createGlobalStyle`
-
-html {
+export const StyledLogin = styled.section`
   font-family: Cambria, Cochin, Georgia, "Times New Roman", Times, serif;
   background-image: url(${sweetTokyo});
   background-size: auto;
@@ -11,14 +9,15 @@ html {
   display: flex;
   text-align: center;
   justify-content: center;
-}
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
 
-@media (max-width: ${({ theme }) => theme.mobile}) {
-  html {
+  @media (max-width: ${({ theme }) => theme.mobile}) {
     background-position: 25% 0%;
-    height: 100vh;
-    width: 100vw;
   }
-}
-
 `;
+
+export default StyledLogin;
