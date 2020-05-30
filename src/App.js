@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 //import "./App.css";
 import { GlobalStyles } from "./global";
+import { GlobalLogin } from "./login/globalLogin";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./theme";
 import { Burger, Menu } from "./components";
@@ -18,9 +19,19 @@ function App() {
   }
 
   if (!password) {
-    return <Login clickHandler={handleSubmit} text="" />;
+    return (
+      <ThemeProvider theme={theme}>
+        <GlobalLogin />
+        <Login clickHandler={handleSubmit} text="" />
+      </ThemeProvider>
+    );
   } else if (password !== "gaboregon") {
-    return <Login clickHandler={handleSubmit} text="Incorrect Password" />;
+    return (
+      <ThemeProvider theme={theme}>
+        <GlobalLogin />
+        <Login clickHandler={handleSubmit} text="Incorrect Password" />
+      </ThemeProvider>
+    );
   } else {
     return (
       <ThemeProvider theme={theme}>
