@@ -27,6 +27,7 @@ export const EventDetails = () => {
             id="stMatthewsgooglemaps"
             href="https://www.google.com/maps/place/St.+Matthew+Catholic+Church/@45.5185101,-122.9886606,17z/data=!3m1!4b1!4m5!3m4!1s0x54951aa3c9941b4f:0xbb7f68a76f2d7e86!8m2!3d45.5185101!4d-122.9864666"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Google Maps
           </a>
@@ -35,6 +36,7 @@ export const EventDetails = () => {
             id="churchWebsite"
             href="https://www.stmatthewhillsboro.org/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             St. Matthew's Catholic Church
           </a>
@@ -47,6 +49,7 @@ export const EventDetails = () => {
             id="peterkortroses"
             href="https://www.google.com/maps/place/Peterkort+Roses/@45.4343164,-122.9718975,17z/data=!3m1!4b1!4m5!3m4!1s0x549511584f6dc597:0x39f32921471f1123!8m2!3d45.4343164!4d-122.9697035"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Google Maps
           </a>
@@ -55,6 +58,7 @@ export const EventDetails = () => {
             id="peterkortRosesWebsite"
             href="http://peterkortroses.com/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Peterkort Roses
           </a>
@@ -65,6 +69,7 @@ export const EventDetails = () => {
             id="McMenamins"
             href="https://www.mcmenamins.com/grand-lodge"
             target="_blank"
+            rel="noopener noreferrer"
           >
             McMenamins Grand Lodge
           </a>

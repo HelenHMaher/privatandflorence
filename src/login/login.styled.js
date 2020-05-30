@@ -12,14 +12,11 @@ const StyledLogin = styled.section`
   background-image: url(${sweetTokyo});
   background-size: auto;
   background-repeat: no-repeat;
-  @media (max-width: ${({ theme }) => theme.mobile}) {
-    background-position: 0% 50%;
-  }
 
   .login {
     background-color: white;
     box-shadow: 0 0 5px black;
-    height: 100px;
+    height: 75px;
     width: 400px;
     margin: auto;
     margin-top: 10vh;
@@ -33,13 +30,13 @@ const StyledLogin = styled.section`
 
   .alert {
     text-align: center;
-    height: 30px;
-    width: 250px;
+    color: red;
+    font-style: italic;
   }
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
     .login {
-      width: 200px;
+      background: green;
     }
   }
 `;

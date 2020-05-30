@@ -9,7 +9,7 @@ export function Login(props) {
   return (
     <StyledLogin className="login">
       <div className="login">
-        <label for="pswd">Enter your password: </label>
+        <label htmlFor="pswd">Enter your password: </label>
         <input
           type="password"
           id="pswd"
