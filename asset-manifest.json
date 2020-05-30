@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/privatandflorence/static/js/main.2c6d770a.chunk.js",
-    "main.js.map": "/privatandflorence/static/js/main.2c6d770a.chunk.js.map",
+    "main.js": "/privatandflorence/static/js/main.b0deb1a0.chunk.js",
+    "main.js.map": "/privatandflorence/static/js/main.b0deb1a0.chunk.js.map",
     "runtime-main.js": "/privatandflorence/static/js/runtime-main.54a7052e.js",
     "runtime-main.js.map": "/privatandflorence/static/js/runtime-main.54a7052e.js.map",
-    "static/js/2.9628cf54.chunk.js": "/privatandflorence/static/js/2.9628cf54.chunk.js",
-    "static/js/2.9628cf54.chunk.js.map": "/privatandflorence/static/js/2.9628cf54.chunk.js.map",
+    "static/js/2.7cff0361.chunk.js": "/privatandflorence/static/js/2.7cff0361.chunk.js",
+    "static/js/2.7cff0361.chunk.js.map": "/privatandflorence/static/js/2.7cff0361.chunk.js.map",
     "index.html": "/privatandflorence/index.html",
-    "precache-manifest.db9268073042b5bd41219ab1cff70153.js": "/privatandflorence/precache-manifest.db9268073042b5bd41219ab1cff70153.js",
+    "precache-manifest.3613ade00ca17cdf81ff23bbcfa09bea.js": "/privatandflorence/precache-manifest.3613ade00ca17cdf81ff23bbcfa09bea.js",
     "service-worker.js": "/privatandflorence/service-worker.js",
-    "static/js/2.9628cf54.chunk.js.LICENSE.txt": "/privatandflorence/static/js/2.9628cf54.chunk.js.LICENSE.txt",
+    "static/js/2.7cff0361.chunk.js.LICENSE.txt": "/privatandflorence/static/js/2.7cff0361.chunk.js.LICENSE.txt",
     "static/media/engagement.jpg": "/privatandflorence/static/media/engagement.ea072bc6.jpg",
     "static/media/rosebackground.jpg": "/privatandflorence/static/media/rosebackground.c1f0df0c.jpg",
     "static/media/roseicon.svg": "/privatandflorence/static/media/roseicon.f5d2608b.svg",
@@ -18,7 +18,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.54a7052e.js",
-    "static/js/2.9628cf54.chunk.js",
-    "static/js/main.2c6d770a.chunk.js"
+    "static/js/2.7cff0361.chunk.js",
+    "static/js/main.b0deb1a0.chunk.js"
   ]
 }

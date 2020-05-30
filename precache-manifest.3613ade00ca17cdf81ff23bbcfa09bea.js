@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "446939282df582384d4af1e194758ffe",
+    "revision": "6406915836aa4e2ab75b055ffcc0c966",
     "url": "/privatandflorence/index.html"
   },
   {
-    "revision": "3c2d2594c3c0d286ab04",
-    "url": "/privatandflorence/static/js/2.9628cf54.chunk.js"
+    "revision": "94b3b78d35ee26086b81",
+    "url": "/privatandflorence/static/js/2.7cff0361.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/privatandflorence/static/js/2.9628cf54.chunk.js.LICENSE.txt"
+    "url": "/privatandflorence/static/js/2.7cff0361.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bcd1c96b61283829694d",
-    "url": "/privatandflorence/static/js/main.2c6d770a.chunk.js"
+    "revision": "c757f53ea72800776af4",
+    "url": "/privatandflorence/static/js/main.b0deb1a0.chunk.js"
   },
   {
     "revision": "9011f4cc25674a50ee5a",
