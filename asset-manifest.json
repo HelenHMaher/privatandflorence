@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/privatandflorence/static/js/main.b0deb1a0.chunk.js",
-    "main.js.map": "/privatandflorence/static/js/main.b0deb1a0.chunk.js.map",
+    "main.js": "/privatandflorence/static/js/main.6771723e.chunk.js",
+    "main.js.map": "/privatandflorence/static/js/main.6771723e.chunk.js.map",
     "runtime-main.js": "/privatandflorence/static/js/runtime-main.54a7052e.js",
     "runtime-main.js.map": "/privatandflorence/static/js/runtime-main.54a7052e.js.map",
     "static/js/2.7cff0361.chunk.js": "/privatandflorence/static/js/2.7cff0361.chunk.js",
     "static/js/2.7cff0361.chunk.js.map": "/privatandflorence/static/js/2.7cff0361.chunk.js.map",
     "index.html": "/privatandflorence/index.html",
-    "precache-manifest.3613ade00ca17cdf81ff23bbcfa09bea.js": "/privatandflorence/precache-manifest.3613ade00ca17cdf81ff23bbcfa09bea.js",
+    "precache-manifest.a8cd8d7914767c0b9320a1e526f705f1.js": "/privatandflorence/precache-manifest.a8cd8d7914767c0b9320a1e526f705f1.js",
     "service-worker.js": "/privatandflorence/service-worker.js",
     "static/js/2.7cff0361.chunk.js.LICENSE.txt": "/privatandflorence/static/js/2.7cff0361.chunk.js.LICENSE.txt",
     "static/media/engagement.jpg": "/privatandflorence/static/media/engagement.ea072bc6.jpg",
@@ -19,6 +19,6 @@
   "entrypoints": [
     "static/js/runtime-main.54a7052e.js",
     "static/js/2.7cff0361.chunk.js",
-    "static/js/main.b0deb1a0.chunk.js"
+    "static/js/main.6771723e.chunk.js"
   ]
 }
