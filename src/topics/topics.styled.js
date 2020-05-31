@@ -15,7 +15,7 @@ export const StyledTopics = styled.section`
   .header {
     font-size: 3rem;
     text-align: center;
-    font-family: cursive;
+    font-family: "Snell Roundhand", cursive;
     color: var(--main-blue);
   }
 

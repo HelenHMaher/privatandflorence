@@ -19,9 +19,8 @@ export const StyledMenu = styled.nav`
   }
 
   a {
-    font-family: cursive;
+    font-family: "Snell Roundhand", cursive;
     font-size: 2rem;
-    text-transform: uppercase;
     padding: 2rem 0;
     font-weight: bold;
     letter-spacing: 0.5rem;

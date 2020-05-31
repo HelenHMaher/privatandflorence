@@ -34,6 +34,11 @@ html {
 .rsvp {
   color: white;
   text-align: center;
+  .header{
+    font-size: 3rem;
+    font-family: "Snell Roundhand", cursive;
+    line-height: 4rem;
+  }
 }
 
 footer {

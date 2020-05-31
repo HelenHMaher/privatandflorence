@@ -5,7 +5,7 @@ export const Rsvp = () => {
   return (
     <section id="rsvp" className="rsvp">
       <div className="header">
-        <h2>RSVP</h2>
+        <h2>Get Updates</h2>
       </div>
       <div className="text">
         <p>Sign up to receive updates!</p>

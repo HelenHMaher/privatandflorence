@@ -9,8 +9,8 @@ export const StyledHeader = styled.section`
     left: 0;
     z-index: 10;
     box-shadow: 0 2px 2px;
-    font-family: cursive;
     color: white;
+    font-family: "Snell Roundhand", cursive;
     width: 100%;
     height: 6.5rem;
     align-items: center;
