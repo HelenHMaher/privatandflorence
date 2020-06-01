@@ -31,6 +31,10 @@ html {
   font-family: Cambria, Cochin, Georgia, "Times New Roman", Times, serif;
 }
 
+.link-spacer {
+    height: 100px;
+  }
+
 .rsvp {
   color: white;
   text-align: center;

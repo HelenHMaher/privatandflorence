@@ -30,10 +30,6 @@ export const StyledTopics = styled.section`
     color: var(--main-red);
   }
 
-  .linkHolder {
-    height: 2rem;
-  }
-
   @media (max-width: ${({ theme }) => theme.mobile}) {
     margin: 2rem 1rem;
     padding: 0.5rem;

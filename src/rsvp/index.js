@@ -4,6 +4,9 @@ import InputFeild from "../input-feild";
 export const Rsvp = () => {
   return (
     <section id="rsvp" className="rsvp">
+      <div className="link-spacer">
+        <br />
+      </div>
       <div className="header">
         <h2>Get Updates</h2>
       </div>
@@ -12,7 +15,7 @@ export const Rsvp = () => {
       </div>
       <InputFeild />
       <div className="links">
-        <p>??? Facebook Group ???</p>
+        <p>Join the Facebook Group</p>
       </div>
     </section>
   );
