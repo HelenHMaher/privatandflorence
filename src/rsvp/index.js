@@ -17,7 +17,12 @@ export const Rsvp = () => {
       <InputFeild />
       <div className="links">
         Join the Facebook group
-        <a href="https://www.facebook.com/">
+        <a
+          id="facebook"
+          href="https://www.facebook.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             alt="facebook icon"
             src={FacebookIcon}
