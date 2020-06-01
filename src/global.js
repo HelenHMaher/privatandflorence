@@ -52,6 +52,9 @@ footer {
   footer a {
     font-size: 10px;
   }
+  .rsvp .header {
+    font-size: 2rem;
+  }
 }
 
 footer a {

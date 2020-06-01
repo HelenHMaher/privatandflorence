@@ -8,13 +8,16 @@ const Topics = ({ open }) => {
     <div className="topics">
       <div id="our-wedding" className="linkHolder">
         <br />
+        <br />
       </div>
       <OurWedding />
       <div id="event-details" className="linkHolder">
         <br />
+        <br />
       </div>
       <EventDetails />
       <div id="our-story" className="linkHolder">
+        <br />
         <br />
       </div>
       <OurStory />

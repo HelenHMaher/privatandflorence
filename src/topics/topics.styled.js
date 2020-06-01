@@ -5,6 +5,7 @@ export const StyledTopics = styled.section`
   margin: 2rem 3.5rem;
   border-radius: 1rem;
   padding: 2rem;
+  padding-bottom: 3rem;
   font-size: 18px;
 
   p {

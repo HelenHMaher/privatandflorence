@@ -3,15 +3,13 @@ import styled from "styled-components";
 const StyledInputFeild = styled.form`
   z-index: 9;
   margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
 
-  .email-feild {
-    display: inline-block;
+  .input-feild {
   }
 
-  #email {
+  .fill-in-blank {
+    margin: 10px;
     width: 250px;
     height: 2rem;
     font-family: Cambria, Cochin, Georgia, "Times New Roman", Times, serif;
@@ -29,6 +27,18 @@ const StyledInputFeild = styled.form`
   @media (max-width: ${({ theme }) => theme.mobile}) {
   }
 
+  .submit-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    p {
+      font-family: "Snell Roundhand", cursive;
+      font-size: 2rem;
+      margin-right: 5px;
+    }
+  }
+
   .submit-container {
     display: inline-block;
     margin-left: 10px;
@@ -42,10 +52,10 @@ const StyledInputFeild = styled.form`
   }
 
   .submit-button {
-    height: 2.2rem;
+    height: 3rem;
     width: 3rem;
     box-shadow: 0 0 5px black;
-    border-radius: 10px;
+    border-radius: 30px;
     background: white;
     display: flex;
     justify-content: center;
