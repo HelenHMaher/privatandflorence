@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b526d3f8fc4a659d219a551c75b8e050",
+    "revision": "fa0f74d3d1c739668e20269df91f4ea0",
     "url": "/privatandflorence/index.html"
   },
   {
-    "revision": "94b3b78d35ee26086b81",
-    "url": "/privatandflorence/static/js/2.7cff0361.chunk.js"
+    "revision": "47a541f755c7d182a6cc",
+    "url": "/privatandflorence/static/js/2.0d6d2a96.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/privatandflorence/static/js/2.7cff0361.chunk.js.LICENSE.txt"
+    "url": "/privatandflorence/static/js/2.0d6d2a96.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "744f2c3781244ae0c455",
-    "url": "/privatandflorence/static/js/main.6771723e.chunk.js"
+    "revision": "88845f078567dfdb7575",
+    "url": "/privatandflorence/static/js/main.07e4247b.chunk.js"
   },
   {
     "revision": "9011f4cc25674a50ee5a",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/privatandflorence/static/media/roseicon.f5d2608b.svg"
   },
   {
-    "revision": "4e5d76e3514847d03015c98936cae05d",
-    "url": "/privatandflorence/static/media/sweetTokyo.4e5d76e3.jpg"
+    "revision": "336384d0b7d6534586c4e2cefb044fa7",
+    "url": "/privatandflorence/static/media/sweet-tokyo-Jan.336384d0.jpeg"
   },
   {
     "revision": "81fbdc4af80896ad0feb6cc5199bf21e",
