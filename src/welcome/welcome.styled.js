@@ -14,5 +14,22 @@ export const StyledWelcome = styled.section`
 
   .email {
     padding-top: 70vh;
+    text-align: center;
+    font-family: "Snell Roundhand", cursive;
+    a {
+      color: black;
+      text-decoration: none;
+      font-size: 1.5rem;
+      background: white;
+      padding: 12px;
+      border-radius: 25px;
+      border: 1px solid white;
+      box-shadow: 0 0 4px;
+      letter-spacing: 0.25rem;
+    }
+    a:hover {
+      background: var(--main-red);
+      color: white;
+    }
   }
 `;

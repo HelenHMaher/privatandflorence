@@ -1,6 +1,5 @@
 import React from "react";
 import MainHeader from "./header";
-import InputFeild from "../input-feild";
 import { StyledWelcome } from "./welcome.styled";
 
 const Welcome = () => {
@@ -8,7 +7,7 @@ const Welcome = () => {
     <StyledWelcome id="welcome" className="welcome">
       <MainHeader />
       <div className="email">
-        <InputFeild />
+        <a href="#rsvp">Get Updates</a>
       </div>
     </StyledWelcome>
   );
