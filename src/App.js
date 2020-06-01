@@ -32,8 +32,9 @@ function App() {
   } else if (password !== "gaboregon") {
     return (
       <ThemeProvider theme={theme}>
-        {/*<GlobalLogin />*/}
-        <Login clickHandler={handleSubmit} text="Incorrect Password" />
+        <StyledLogin>
+          <Login clickHandler={handleSubmit} text="Incorrect Password" />
+        </StyledLogin>
       </ThemeProvider>
     );
   } else {

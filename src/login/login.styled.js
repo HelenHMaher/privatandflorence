@@ -12,7 +12,7 @@ const StyledLogin = styled.section`
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 20px;
   }
 
   .alert {
