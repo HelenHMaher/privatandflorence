@@ -43,6 +43,11 @@ const StyledInputFeild = styled.form`
     display: inline-block;
     margin-left: 10px;
   }
+  .submit-container:hover {
+    box-shadow: 0 0 2px;
+    border: 2px solid black;
+    border-radius: 30px;
+  }
 
   .submit-container :active {
     transition-duration: 0.3sec;
@@ -54,7 +59,7 @@ const StyledInputFeild = styled.form`
   .submit-button {
     height: 3rem;
     width: 3rem;
-    box-shadow: 0 0 5px black;
+
     border-radius: 30px;
     background: white;
     display: flex;

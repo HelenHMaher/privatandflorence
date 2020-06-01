@@ -1,5 +1,6 @@
 import React from "react";
 import InputFeild from "../input-feild";
+import FacebookIcon from "../photos/icons/facebook-icon-128 (1).png";
 
 export const Rsvp = () => {
   return (
@@ -15,7 +16,15 @@ export const Rsvp = () => {
       </div>
       <InputFeild />
       <div className="links">
-        <p>Join the Facebook Group</p>
+        Join the Facebook group
+        <a href="https://www.facebook.com/">
+          <img
+            alt="facebook icon"
+            src={FacebookIcon}
+            height="40px"
+            width="40px"
+          ></img>
+        </a>
       </div>
     </section>
   );

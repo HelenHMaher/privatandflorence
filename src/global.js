@@ -43,6 +43,28 @@ html {
     font-family: "Snell Roundhand", cursive;
     line-height: 4rem;
   }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  a {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+  }
+  a:hover {
+    background: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 2px white;
+  }
 }
 
 footer {
