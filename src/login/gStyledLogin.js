@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import sweetTokyo from "../photos/sweet-tokyo-Jan.jpeg";
+import sweetTokyoMobile from "../photos/sweetTokyo.jpg";
 
 export const StyledLogin = styled.section`
   font-family: Cambria, Cochin, Georgia, "Times New Roman", Times, serif;
@@ -19,6 +20,7 @@ export const StyledLogin = styled.section`
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
     background-position: 25% 0%;
+    background-image: url(${sweetTokyoMobile});
   }
 `;
 
