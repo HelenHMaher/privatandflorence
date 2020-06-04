@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.js": "/privatandflorence/static/js/main.07e4247b.chunk.js",
-    "main.js.map": "/privatandflorence/static/js/main.07e4247b.chunk.js.map",
+    "main.js": "/privatandflorence/static/js/main.b98d91bb.chunk.js",
+    "main.js.map": "/privatandflorence/static/js/main.b98d91bb.chunk.js.map",
     "runtime-main.js": "/privatandflorence/static/js/runtime-main.54a7052e.js",
     "runtime-main.js.map": "/privatandflorence/static/js/runtime-main.54a7052e.js.map",
-    "static/js/2.0d6d2a96.chunk.js": "/privatandflorence/static/js/2.0d6d2a96.chunk.js",
-    "static/js/2.0d6d2a96.chunk.js.map": "/privatandflorence/static/js/2.0d6d2a96.chunk.js.map",
+    "static/js/2.db458a8a.chunk.js": "/privatandflorence/static/js/2.db458a8a.chunk.js",
+    "static/js/2.db458a8a.chunk.js.map": "/privatandflorence/static/js/2.db458a8a.chunk.js.map",
     "index.html": "/privatandflorence/index.html",
-    "precache-manifest.c67c864ff05f67b01b8320a0d848c576.js": "/privatandflorence/precache-manifest.c67c864ff05f67b01b8320a0d848c576.js",
+    "precache-manifest.554324ba2ca72665acb5fd5bdc43e86b.js": "/privatandflorence/precache-manifest.554324ba2ca72665acb5fd5bdc43e86b.js",
     "service-worker.js": "/privatandflorence/service-worker.js",
-    "static/js/2.0d6d2a96.chunk.js.LICENSE.txt": "/privatandflorence/static/js/2.0d6d2a96.chunk.js.LICENSE.txt",
+    "static/js/2.db458a8a.chunk.js.LICENSE.txt": "/privatandflorence/static/js/2.db458a8a.chunk.js.LICENSE.txt",
     "static/media/engagement.jpg": "/privatandflorence/static/media/engagement.ea072bc6.jpg",
     "static/media/rosebackground.jpg": "/privatandflorence/static/media/rosebackground.c1f0df0c.jpg",
     "static/media/roseicon.svg": "/privatandflorence/static/media/roseicon.f5d2608b.svg",
     "static/media/sweet-tokyo-Jan.jpeg": "/privatandflorence/static/media/sweet-tokyo-Jan.336384d0.jpeg",
+    "static/media/sweetTokyo.jpg": "/privatandflorence/static/media/sweetTokyo.4e5d76e3.jpg",
     "static/media/whiterose.svg": "/privatandflorence/static/media/whiterose.81fbdc4a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.54a7052e.js",
-    "static/js/2.0d6d2a96.chunk.js",
-    "static/js/main.07e4247b.chunk.js"
+    "static/js/2.db458a8a.chunk.js",
+    "static/js/main.b98d91bb.chunk.js"
   ]
 }
